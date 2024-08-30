@@ -5,11 +5,11 @@
 class SamwiseCli < Formula
   desc ""
   homepage "https://github.com/Darth-Tech/samwise-cli"
-  version "0.4.1"
+  version "0.4.2"
 
   on_macos do
-    url "https://github.com/Darth-Tech/samwise-cli/releases/download/v0.4.1/samwise-cli_0.4.1_darwin_all.tar.gz"
-    sha256 "470d5b9c4f705ac0262305c85787562c323667e23f6c9e7702ba3a4c89be1d36"
+    url "https://github.com/Darth-Tech/samwise-cli/releases/download/v0.4.2/samwise-cli_0.4.2_darwin_all.tar.gz"
+    sha256 "9041ce93fb5d929a33294b0b7b75cf933503e1f66bffa42561c3656626579cd1"
 
     def install
       bin.install "samwise-cli"
@@ -19,8 +19,8 @@ class SamwiseCli < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Darth-Tech/samwise-cli/releases/download/v0.4.1/samwise-cli_0.4.1_linux_amd64.tar.gz"
-        sha256 "457e566807a8625634c940254913a72b59144374bc77db8d45cd39de3b6ea183"
+        url "https://github.com/Darth-Tech/samwise-cli/releases/download/v0.4.2/samwise-cli_0.4.2_linux_amd64.tar.gz"
+        sha256 "cde99d8440b7657b584f5ef1d3576bd7cdda667fab28ebd23dada3fcf02d2e01"
 
         def install
           bin.install "samwise-cli"
@@ -29,8 +29,8 @@ class SamwiseCli < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Darth-Tech/samwise-cli/releases/download/v0.4.1/samwise-cli_0.4.1_linux_arm64.tar.gz"
-        sha256 "cc6017f665f9d5f35685d427f37ebf7ec9a28fca164aa2f3787291704fc3a91e"
+        url "https://github.com/Darth-Tech/samwise-cli/releases/download/v0.4.2/samwise-cli_0.4.2_linux_arm64.tar.gz"
+        sha256 "95bea13c87136d6234ea93f20fd19a2c0450427871545eb9a848c07408ecbdfd"
 
         def install
           bin.install "samwise-cli"
